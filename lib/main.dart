@@ -28,7 +28,7 @@ class _RestaurantAppState extends State<RestaurantApp> {
       const HomeScreen(),
       MenuScreen(onAdd: _addOrder),
       OrdersScreen(orders: _orders),
-      const OffersScreen(),
+      OffersScreen(onAdd: _addOrder),
       const ProfileScreen(),
     ];
 
